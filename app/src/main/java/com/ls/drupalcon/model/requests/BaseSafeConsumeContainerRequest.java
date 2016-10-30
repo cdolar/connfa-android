@@ -10,7 +10,7 @@ import com.ls.http.base.ResponseData;
 import java.util.HashMap;
 import java.util.Map;
 
-import retrofit.http.GET;
+//import retrofit.http.GET;
 
 public abstract class BaseSafeConsumeContainerRequest<T> extends AbstractDrupalEntityContainer<T> {
 

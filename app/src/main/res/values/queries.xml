@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="pragma_autoindex_off">
+        PRAGMA automatic_index=off
+    </string>
+
     <!--==============================================================-->
     <!--CREATE TABLES-->
     <!--==============================================================-->
@@ -31,6 +35,10 @@
         )
     </string>
 
+    <string name="create_table_speaker_indes">
+        CREATE INDEX idx_speaker_id ON table_speaker(_id)
+    </string>
+
     <string name="create_table_level">
         CREATE TABLE table_level (
         _id				        INTEGER,
@@ -40,6 +48,10 @@
         )
     </string>
 
+    <string name="create_table_level_index">
+        CREATE INDEX idx_level_id ON table_level(_id)
+    </string>
+
     <string name="create_table_track">
         CREATE TABLE table_track (
         _id				        INTEGER,
@@ -47,6 +59,10 @@
         _order                  DOUBLE,
         _deleted                BOOLEAN
         )
+    </string>
+
+    <string name="create_table_track_index">
+        CREATE INDEX idx_track_id ON table_track(_id)
     </string>
 
     <string name="create_table_location">
@@ -114,11 +130,19 @@
         )
     </string>
 
+    <string name="create_table_event_index">
+        CREATE INDEX idx_event_event_class ON table_event(_event_class)
+    </string>
+
     <string name="create_table_event_and_speaker">
         CREATE TABLE table_event_and_speaker (
         _event_id		         INTEGER,
         _speaker_id			     INTEGER
         )
+    </string>
+
+    <string name="create_table_event_and_speaker_index">
+        CREATE INDEX index_table_event_and_speaker ON table_event_and_speaker(_event_id)
     </string>
 
     <string name="create_table_favorite_events">

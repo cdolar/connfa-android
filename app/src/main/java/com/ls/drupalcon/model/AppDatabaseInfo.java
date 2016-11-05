@@ -94,13 +94,19 @@ public class AppDatabaseInfo implements DBInfo, IMigrationTask {
 
     private List<String> generateCreationQueryList() {
         List<String> dbSchemaQueryList = new LinkedList<>();
+        //addStringWithIdToList(dbSchemaQueryList, R.string.pragma_autoindex_off);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_type);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_speaker);
+        addStringWithIdToList(dbSchemaQueryList, R.string.create_table_speaker_indes);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_level);
+        addStringWithIdToList(dbSchemaQueryList, R.string.create_table_level_index);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_track);
+        addStringWithIdToList(dbSchemaQueryList, R.string.create_table_track_index);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_location);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_event);
+        addStringWithIdToList(dbSchemaQueryList, R.string.create_table_event_index);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_event_and_speaker);
+        addStringWithIdToList(dbSchemaQueryList, R.string.create_table_event_and_speaker_index);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_favorite_events);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_info);
         addStringWithIdToList(dbSchemaQueryList, R.string.create_table_poi);

@@ -6,7 +6,7 @@
               android:background="@android:color/white"
               android:orientation="vertical">
 
-        <org.ieee.ui.view.FontTextView
+        <com.ls.ui.view.FontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
@@ -37,7 +37,7 @@
             android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
-        <org.ieee.ui.view.FontTextView
+        <com.ls.ui.view.FontTextView
                 android:id="@+id/btnClear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                 android:textColor="@color/primary"
                 android:textSize="@dimen/text_size_small"/>
 
-            <org.ieee.ui.view.FontTextView
+            <com.ls.ui.view.FontTextView
                 android:id="@+id/btnApply"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

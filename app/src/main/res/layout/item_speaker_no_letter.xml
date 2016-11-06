@@ -8,7 +8,7 @@
               android:paddingLeft="16dp"
               android:paddingBottom="16dp">
 
-    <org.ieee.ui.view.CircleImageView
+    <com.ls.ui.view.CircleImageView
             android:id="@+id/imgPhoto"
             android:layout_centerVertical="true"
             android:layout_marginTop="16dp"
@@ -25,7 +25,7 @@
             android:layout_marginLeft="16dp"
             android:orientation="vertical">
 
-        <org.ieee.ui.view.FontTextView
+        <com.ls.ui.view.FontTextView
                 android:id="@+id/txtName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                 android:textSize="@dimen/text_size_15"
                 tools:text="Lorem ipsum"/>
 
-        <org.ieee.ui.view.FontTextView
+        <com.ls.ui.view.FontTextView
                 android:id="@+id/txtOrgAndJobTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

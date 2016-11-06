@@ -57,7 +57,7 @@
                     android:src="@drawable/ic_no_info"
                     android:layout_height="wrap_content" />
 
-            <org.ieee.ui.view.FontTextView
+            <com.ls.ui.view.FontTextView
                     android:layout_width="wrap_content"
                     android:gravity="center_horizontal"
                     android:layout_marginTop="@dimen/margin_top_placeholder_text"

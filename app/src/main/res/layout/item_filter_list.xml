@@ -16,7 +16,7 @@
                   android:paddingLeft="24dp"
                   android:paddingRight="16dp">
 
-        <org.ieee.ui.view.FontTextView
+        <com.ls.ui.view.FontTextView
                 android:id="@+id/txtItemTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

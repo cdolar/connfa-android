@@ -46,8 +46,8 @@ public class App extends MultiDexApplication {
         return mContext;
     }
 
-    public synchronized Tracker getTracker() {
+/*    public synchronized Tracker getTracker() {
         GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
         return analytics.newTracker(R.xml.global_tracker);
-    }
+    } */
 }
